@@ -3,11 +3,10 @@ void main ()
 {    
     int i, j,temp,largest,sec_largest;     
     int a[10] = { 10, 9, 7, 101, 23, 44, 12, 78, 34, 23};    
-	 largest=arr[0];
-	 sec_largest=arr[1]; 
+	 
     for(i = 0; i<10; i++)    
     {    
-        if(a[i]>largest) 
+        if(a[i]>largest)      
 		{
 			sec_largest=largest;
 			largest=a[i];
